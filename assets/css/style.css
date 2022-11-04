@@ -54,10 +54,7 @@ textarea:focus {
     padding: 20px 30px;
 }
 
-.topbar {
-    padding: 10px 10px;
 
-}
 
 .topbar-col a {
     color: #3d2514;
@@ -67,7 +64,7 @@ textarea:focus {
 }
 
 .navbar {
-    margin: -5px 0px;
+    margin: -13x 0px;
 }
 
 
@@ -76,7 +73,7 @@ textarea:focus {
     font-size: 20.83px;
     font-weight: 600;
 
-    padding: 0 8px;
+    padding: 0 11px;
     letter-spacing: 4px;
 }
 
@@ -89,7 +86,7 @@ textarea:focus {
 }
 
 .navbar-logo {
-    height: 50px;
+    height: 55px;
     width: auto;
 }
 
@@ -109,6 +106,9 @@ textarea:focus {
 
 }
 
+.header--1 {
+    padding: 23px 30px;
+}
 
 .hero-area {
     padding: 70px 26px;
@@ -116,13 +116,12 @@ textarea:focus {
 }
 
 .hero-area--1 {
-    background-image: url(../img/1st-bg.jpg);
+    background-image: url(../img/1st-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 180px;
-    padding-bottom: 233px;
-   
+    padding-top: 255px;
+    padding-bottom: 380px
 
 }
 
@@ -160,26 +159,25 @@ textarea:focus {
     right: -3px;
     top: 47px;
 }
-
-.img-gallery:before {
+ .img-gallery:before {
     width: 300px;
     height: 300px;
     content: "";
     position: absolute;
     border-radius: 150px;
     border-radius: 50%;
-    box-shadow: -9px -96px 138px 64px rgb(255 245 185);
+    /* box-shadow: -9px -96px 138px 64px rgb(255 245 185); */
     top: 94px;
     left: 187px;
     z-index: -2;
-}
+} 
 
 .image-tile {
     position: relative;
 }
 
 
-.img-gallery img::after {
+/* .img-gallery img::after {
     position: absolute;
     width: 64%;
     height: 12%;
@@ -189,14 +187,14 @@ textarea:focus {
     bottom: 0%;
     content: "";
     box-shadow: 0 50px 24px rgba(0, 0, 0, 0.24) spread;
-}
+} */
 
 .img-gallery img:nth-child(1) {
 
     position: relative;
     top: 0;
     left: 39px;
-    filter: brightness(120%);
+   
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
@@ -204,10 +202,9 @@ textarea:focus {
 
 .img-gallery img:nth-child(2) {
     position: absolute;
-    top: 66px;
+    top: 22px;
     z-index: 3;
-    left: 171px;
-    filter: drop-shadow(0px 9px 5px 5px #fff);
+    left: 118px;
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
@@ -230,9 +227,9 @@ textarea:focus {
 
 .img-gallery img:nth-child(3) {
     position: absolute;
-    right: 130px;
-    top: -57px;
-    filter: drop-shadow(0px 9px 5px #222);
+    right: 22px;
+    top: -97px;
+    /* filter: drop-shadow(0px 9px 5px #222); */
 
 }
 
@@ -247,12 +244,11 @@ textarea:focus {
     background: #e30e0e;
     position: absolute;
     z-index: 5;
-
     display: inline-block;
     line-height: 150px;
     font-family: 'Bebas Neue', cursive;
-    left: 99px;
-    bottom: -176px;
+    left: 118px;
+    bottom: -132px;
 }
 
 .circle span {
@@ -288,6 +284,8 @@ textarea:focus {
     image-rendering: auto;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
+    margin-top: -92px;
+    margin-bottom: 45px;
 
 }
 
@@ -297,8 +295,8 @@ textarea:focus {
 
 .text-block-1 {
     position: absolute;
-    top: 21%;
-    left: 21%;
+    top: 15%;
+    left: 20%;
     transform: translate(-50%, -50%);
     font-weight: 400;
     letter-spacing: 2px;
@@ -313,8 +311,8 @@ textarea:focus {
 
 .text-block-2 {
     position: absolute;
-    top: 26%;
-    left: 59%;
+    top: 20%;
+    left: 58%;
     transform: translate(-50%, -50%);
     font-weight: 400;
     letter-spacing: 2px;
@@ -329,8 +327,8 @@ textarea:focus {
 
 .text-block-3 {
     position: absolute;
-    top: 62%;
-    left: 59%;
+    top: 67%;
+    left: 58%;
     transform: translate(-50%, -50%);
     font-weight: 400;
     letter-spacing: 2px;
@@ -381,7 +379,7 @@ textarea:focus {
 
 .burger-menu-card--1 p {
     font-size: 16.5px;
-    line-height: 1.6;
+    margin-bottom: 28px;
 }
 
 .burger-menu-card--1 .card--1 img {
@@ -457,7 +455,7 @@ textarea:focus {
     text-transform: uppercase;
     font-family: 'Alfa Slab One', cursive;
     font-size: 16.67px;
-    padding: 7px 23px;
+    padding: 15px 37px;
     font-weight: 400;
 }
 
@@ -493,7 +491,7 @@ textarea:focus {
 .card-slider h2 {
     font-size: 41.67px;
     font-weight: 400;
-    margin-bottom: 29px;
+    /* margin-bottom: 86px; */
     text-transform: uppercase;
     font-family: 'Alfa Slab One', cursive;
 }
@@ -558,6 +556,7 @@ textarea:focus {
 
 .from-control-area {
     padding: 64px 0px;
+    position: relative;
 }
 
 .from-control-area h2 {
@@ -573,4 +572,64 @@ textarea:focus {
 }
 .from-control-area .form-control {
     padding: 20px 20px;
+    font-family : 'Bebas Neue',cursive;
+    font-size: 20.83px;
+    font-weight: 400;
 }
+.from-control-area .btn {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20.83px;
+}
+
+.from-control-area .mg-1 {
+    position: absolute;
+    top: -41px;
+    left: 0px;
+}
+
+.from-control-area .mg-2{
+    position: absolute;
+    left: 92px;
+    top: 207px;
+}
+.from-control-area .mg-3 {
+    position: absolute;
+    right: 0px;
+    top: 287px;
+}
+
+
+  /* section-6 **/
+
+  .footer-area--1 {
+    background-image: url(../img/footer-bg.jpg);
+    margin-top: 128px;
+    color:#fff
+
+  }
+
+  .footer-area--1 .footer-left {
+    color:#fff
+  }
+
+  .footer-area--1 p {
+    color: #fff;
+  }
+
+  .social-icon ul {
+    list-style: none;
+  }
+
+  .social-icon ul li {
+    background-color: #ffffff;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    text-align: center;
+    
+  }
+
+  .social-icon ul li svg {
+    color: #333
+  }
+

@@ -603,8 +603,14 @@ textarea:focus {
 
   .footer-area--1 {
     background-image: url(../img/footer-bg.jpg);
-    margin-top: 128px;
-    color:#fff
+    margin: 130px 40px 40px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 70px;
+    padding-bottom: 140px;
+    position: relative;
 
   }
 
@@ -626,10 +632,42 @@ textarea:focus {
     height: 31px;
     border-radius: 50%;
     text-align: center;
+    margin: 5px 8px;
+}
     
-  }
 
   .social-icon ul li svg {
     color: #333
   }
+
+  .footer-left .navbar-logo {
+    height: 60px;
+    width: auto;
+    margin-bottom: 40px;
+  }
+
+  .footer-left .para-text {
+    font-size: 16.67px;
+    font-weight: 400;
+}
+
+.footer-left .cp-text {
+    top: 391px;
+    position: absolute;
+    font-family : 'Bebas Neue',cursive;
+    font-size: 16.83px;
+}
+  
+.social-icon ul {
+    position: absolute;
+    top: 379px;
+    right: 40px;
+    padding: 0px 30px
+}
+
+.footer-area .footer-right {
+    margin-top: 80px;
+    font-family : 'Bebas Neue',cursive;
+    font-size: 20.83px;
+}
 

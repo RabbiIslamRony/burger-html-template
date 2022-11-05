@@ -661,7 +661,7 @@ textarea:focus {
 .social-icon ul {
     position: absolute;
     top: 379px;
-    right: 40px;
+    right: 0px;
     padding: 0px 30px
 }
 
